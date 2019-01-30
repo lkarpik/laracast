@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(223, 235, 221);
+    font-size: 1.5rem;
+}
+.header {
+    margin: 2rem;
+    text-align: center;
+    background-color: rgb(165, 173, 163);
+}
+.content {
+    margin: 2rem;
+    text-align: center;
+    background-color: rgb(165, 173, 163);
+}
+.message {
+    margin: 2rem;
+}
+
