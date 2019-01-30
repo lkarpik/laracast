@@ -1,14 +1,14 @@
 <?php
 
-$config = [
+return [
     'database' => [
-        'name' => 'mytodo',
+        'dbname' => 'todo',
         'username' => 'root',
         'password' => 'rootpassword',
         'connection' => 'mysql:host=mysql:3306',
+        'charset' => 'utf8',
         'options' => [
-            'dbname' => 'todo',
-            'charset' => 'utf8'
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
         ]
     ]
 ];

@@ -6,7 +6,10 @@ class Connection
     {
         try {
             return new PDO(
-                $config['connection'].';dbname='.$config['options']['dbname'].';charset='.$config['options']['charset'], $config['username'], $config['rootpassword']
+                $config['connection'].';dbname='.$config['dbname'].';charset='.$config['charset'],
+                $config['username'], 
+                $config['password'],
+                $config['options']
             );
         } catch (Exception $e) {
             echo "Error occured while connecting to database.".$e;
