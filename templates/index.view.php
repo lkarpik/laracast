@@ -9,6 +9,13 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <nav>
+        <ul class="nav_ul">
+            <li><a href="index.php">&#8227; Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+        </ul>
+    </nav>
     <header>
         <div class="header">  
             <h1>ToDo simple app</h1>
