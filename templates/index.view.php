@@ -11,9 +11,9 @@
 <body>
     <nav>
         <ul class="nav_ul">
-            <li><a href="index.php">&#8227; Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="">&#8227; Home</a></li>
+            <li><a href="index.php/about">&#8227; About Us</a></li>
+            <li><a href="index.php/contact">&#8227; Contact Us</a></li>
         </ul>
     </nav>
     <header>

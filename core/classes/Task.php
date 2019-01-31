@@ -1,6 +1,6 @@
 <?php
 
-class Tasks 
+class Task 
 {
     public $description;
 }
