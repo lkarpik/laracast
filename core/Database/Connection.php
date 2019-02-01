@@ -11,8 +11,8 @@ class Connection
                 $config['password'],
                 $config['options']
             );
-        } catch (Exception $e) {
-            echo "Error occured while connecting to database.".$e;
+        } catch (PDOException $e) {
+            die ("Error occured while connecting to database.".$e->getMessage());
         }
     }
 }

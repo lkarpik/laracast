@@ -1,5 +1,5 @@
 <?php
 
-$tasks = $query->getAll('tasks', 'Task');
+$tasks = $app['database']->getAll('tasks', 'Task');
 
 require 'templates/index.view.php';

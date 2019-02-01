@@ -9,6 +9,6 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>About our history</h1>
+    <h1>Page does not exist</h1>
 </body>
 </html>
