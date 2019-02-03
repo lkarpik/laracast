@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ToDo App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-    <nav>
-        <ul class="nav_ul">
-            <li><a href="http://localhost:8000/laravel/index.php">&#8227; Home</a></li>
-            <li><a href="http://localhost:8000/laravel/index.php/about">&#8227; About Us</a></li>
-            <li><a href="http://localhost:8000/laravel/index.php/contact">&#8227; Contact Us</a></li>
-        </ul>
-    </nav>
-    <header>
-        <div class="header">  
-            <h1>ToDo simple app</h1>
-        </div>
-    </header>
-    <main>
+<?php
+require 'includes/header.view.php';
+?>
+<main>
       <div class="content">
         <h2>List of tasks:</h2>
         <ol>
@@ -50,10 +30,6 @@
         </ol>
       </div>
     </main>
-    <footer>
-        <div class="footer">
-
-        </div>
-    </footer>
-</body>
-</html>
+<?php
+require 'includes/footer.view.php';
+?>

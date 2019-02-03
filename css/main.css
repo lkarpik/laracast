@@ -32,6 +32,12 @@ a:hover {
     text-align: center;
     background-color: rgb(165, 173, 163);
 }
+.footer {
+    margin: 2rem;
+    text-align: left;
+    background-color: rgb(165, 173, 163);
+    color: rgb(66, 64, 64);
+}
 .message {
     margin: 2rem;
 }

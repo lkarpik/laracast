@@ -2,7 +2,7 @@
 
 class Router 
 {
-    protected $routes =[];
+    protected $routes = [];
 
     public static function load($file)
     {
