@@ -1,3 +1,3 @@
 <?php
 
-require 'templates/contact.view.php';
+include 'templates/contact.view.php';

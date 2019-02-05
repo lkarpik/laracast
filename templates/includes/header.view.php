@@ -13,7 +13,7 @@
 require 'nav.php';
 ?>
 <header>
-        <div class="header">  
-            <h1>ToDo simple app</h1>
-        </div>
+    <div class="header">  
+        <h1>ToDo simple app</h1>
+    </div>
 </header>
