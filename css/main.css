@@ -15,11 +15,14 @@ a:hover {
     margin: 2rem;
     text-align: left;
     background-color: rgb(165, 173, 163);
+    list-style-position: inside;
+    
     
 }
 .nav_ul li {
     display: inline-block;
     margin-left: 1rem;
+    
 }
 
 .header {
@@ -33,6 +36,7 @@ a:hover {
     text-align: center;
     background-color: rgb(165, 173, 163);
 }
+
 .footer {
     margin: 2rem;
     text-align: left;
@@ -47,3 +51,7 @@ a:hover {
     padding-left: 2rem;
 }
 
+.content ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+}

@@ -10,10 +10,10 @@ require 'includes/header.view.php';
             <textarea type="text" name="description" id="descrition" rows="5" cols="40"></textarea><br><hr>
 
             <label for="date">When task should be done?</label><br>
-            <input type="date" name="date" id="date"><br><hr>
+            <input type="date" name="date" id="date" value="<?=$date?>"><br><hr>
 
-            <label for="task_done">Mark ad done?</label>
-            <input type="checkbox" name="task_done" id="task_done" value="true"><br><hr>
+            <label for="task_done">Mark as done?</label>
+            <input type="checkbox" name="task_done" id="task_done" value="1"><br><hr>
 
             <button type="submit" name="submit">Send form</button>
             <button type="reset" name="reset">Reset form</button>
