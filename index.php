@@ -6,4 +6,4 @@ $database = require 'core/boot.php';
 
 // require 'routes.php';
 
-require Router::load('routes.php') -> direct(Request::getUri());
+require Router::load('routes.php') -> direct(Request::getUri(), Request::method());
