@@ -31,10 +31,11 @@ a:hover {
     background-color: rgb(165, 173, 163);
 }
 .content {
-    margin: 2rem;
-    padding-bottom: 1rem;
-    text-align: center;
+    margin: 2rem auto 2rem auto;
+    padding: 0.5rem 1rem 1rem 1rem;
+    text-align: left;
     background-color: rgb(165, 173, 163);
+    width: 35vw;
 }
 
 .footer {

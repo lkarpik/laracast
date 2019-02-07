@@ -4,7 +4,7 @@ require 'includes/header.view.php';
 <main>
     <div class="content">
         <h1>Add new task</h1>
-        <form id="add-new-task" action="/laravel/index.php/new" method="POST">
+        <form id="add-new-task" action="/laravel/index.php/add" method="POST">
             <hr>
             <label for="description">Description:</label><br>
             <textarea type="text" name="description" id="descrition" rows="5" cols="40"></textarea><br><hr>

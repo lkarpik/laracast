@@ -7,5 +7,6 @@ $router->define([
     'about' => 'controllers/about.php',
     'about/history' => 'controllers/about-history.php',
     'contact' => 'controllers/contact.php',
-    'new' => 'controllers/new-task.php'
+    'new' => 'controllers/new-task.php',
+    'add' => 'core/model/new-task.php'
 ]);

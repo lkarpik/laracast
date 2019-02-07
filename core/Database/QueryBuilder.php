@@ -16,7 +16,7 @@ class QueryBuilder
         return $results = $query->fetchAll(PDO::FETCH_CLASS, $class);
     }
 
-    public function insertTask($table, $description, $completed, $data)
+    public function insertTask($table, $description, $completed, $date)
     {
         try{
             $query = $this->pdo->prepare("INSERT into {$table} (description, completed, date) VALUES (
