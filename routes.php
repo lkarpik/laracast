@@ -18,4 +18,7 @@ $router->get('about', 'controllers/about.php');
 $router->get('about/history', 'controllers/about-history.php');
 $router->get('contact', 'controllers/contact.php');
 $router->get('new', 'controllers/new-task.php');
-$router->post('add', 'core/models/new-task.php');
+$router->get('new/user', 'controllers/new-user.php');
+$router->post('add', 'models/new-task.php');
+$router->post('add', 'models/new-task.php');
+$router->post('add/user', 'models/new-user.php');

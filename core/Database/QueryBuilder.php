@@ -33,4 +33,22 @@ class QueryBuilder
             return false;
         }
     }
+
+    public function insert($table, array $data)
+    {
+        // insert into ~users~ %s ~(name, email)~ (%s) values ~(:name, :email)~ (%s)
+
+        // $query->execute(['name'=>'First', 'email'=>'First@gmail.com'])
+        $query = sprintf("INSERT INTO %s (%s) VALUES (%s)", $table,
+        implode(', ', array_keys($data)),
+        ':'.implode(', :', array_keys($data)));
+        try {
+            $statement = $this->pdo->prepare($query); 
+            $statement->execute($data);
+            return true;
+        } catch (PDOException $e) {
+            die('Somenthing went wrong. Error:'.$e->getMessage());
+        }
+    }
+    
 }
