@@ -7,7 +7,7 @@ if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
 
-    if($app['database']->insert('users', [
+    if(App::get('database')->insert('users', [
         'name' => $name,
         'email' => $email
         ])) {

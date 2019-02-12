@@ -1,4 +1,5 @@
 <?php
+require 'vendor/autoload.php';
 
 $database = require 'core/boot.php';
 

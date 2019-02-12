@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) {
         die('Insert all data');
     }
     $description = $_POST['description'];
-    $completed = (isset($_POST['task_done'])) ? true : false;
+    $completed = (isset($_POST['task_done'])) ? 1 : 0;
     $date = $_POST['date'];
 
     // old method 
@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
     //     header("Location: /laravel");
     // }
     
-    if($app['database']->insert('tasks',[
+    if(App::get('database')->insert('tasks',[
         'description' => $description, 
         'completed' => $completed,
         'date' => $date

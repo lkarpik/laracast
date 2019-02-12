@@ -1,6 +1,6 @@
 <?php
 
-$tasks = $app['database']->getAll('tasks', 'Task');
+$tasks = App::get('database')->getAll('tasks', 'Task');
 
 $counterToDo = 0;
 $counterCompleted = 0;
